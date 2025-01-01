@@ -3,14 +3,13 @@
 // @namespace    https://bbs.tampermonkey.net.cn/
 // @version      0.1.0
 // @description  自动登录校园网并提供可视化设置界面
-// @author       You
+// @author       Hongtauo@https://github.com/Hongtauo
 // @match        http://10.10.9.4/*
 // ==/UserScript==
 
 (function() {
     'use strict';
-
-    // 动态插入 CSS 样式
+    
     const style = document.createElement('style');
     style.innerHTML = `
         .floating-panel {
